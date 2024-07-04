@@ -917,10 +917,6 @@ body {
   margin-bottom: 12px !important; }
 
 .list__left {
-  position: absolute;
-  top: 0; }
-
-.list__left {
   color: #11114c;
   font-size: 40px;
   line-height: 40px; }
@@ -966,6 +962,7 @@ body {
   margin-left: 30px; }
 
 .list__left p, .list__left h2 {
+  font-family: "PropisiLight2", sans-serif;
   line-height: 100%; }
 
 .container {
