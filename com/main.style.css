@@ -376,6 +376,10 @@ body {
   .block__title {
     font-size: 22px;
     line-height: 30px; }
+  .banner__box {
+    background: url(images/banner_mob.png);
+    background-size: cover;
+    background-repeat: no-repeat; }
   .steps__box_step {
     max-width: unset; }
   .step__box_img {
@@ -389,6 +393,12 @@ body {
     max-width: 175px; }
   .tab label p {
     max-width: 267px; }
+  .b-popup {
+    background-color: unset;
+    display: flex;
+    position: sticky;
+    bottom: -160%;
+    transition: 2s; }
   .b-popup-header {
     flex-direction: column-reverse;
     align-items: center; }
@@ -400,16 +410,6 @@ body {
     margin-bottom: 36px; } }
 
 @media (max-width: 375px) {
-  .banner__box {
-    background: url(images/banner_mob.png);
-    background-size: cover;
-    background-repeat: no-repeat; }
-  .b-popup {
-    background-color: unset;
-    display: flex;
-    position: fixed;
-    bottom: -130%;
-    transition: 2s; }
   .b-popup-header h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
