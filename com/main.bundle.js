@@ -16,7 +16,7 @@
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n\nvar popup = document.querySelector(\"#popup1\");\nvar action = document.querySelector(\"#js_action\");\nvar box = document.querySelector(\".b-popup\");\nvar content = document.querySelector(\".b-popup-content\");\nvar addedbg = function addedbg() {\n  popup.style.backgroundColor = \"rgba(0, 0, 0, 0.5\";\n};\nif (window.matchMedia(\"(min-width: 489px)\").matches) {\n  action.addEventListener(\"click\", function () {\n    popup.style.display = \"flex\";\n    document.querySelector(\".close\").addEventListener(\"click\", function () {\n      popup.style.display = \"none\";\n    });\n  });\n}\nif (window.matchMedia(\"(max-width: 488px)\").matches) {\n  action.addEventListener(\"click\", function () {\n    popup.style.bottom = '-24px';\n    setTimeout(addedbg(), 4000);\n    popup.style.display = \"flex\";\n    box.style.alignItems = \"flex-end\";\n    document.querySelector(\".close\").addEventListener(\"click\", function () {\n      popup.style.bottom = \"-130%\";\n    });\n  });\n}\n\n//# sourceURL=webpack://inpz/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ \"./src/styles/main.scss\");\n\nvar popup = document.querySelector(\"#popup1\");\nvar action = document.querySelector(\"#js_action\");\n// const box = document.querySelector(\".b-popup\");\n// const content = document.querySelector(\".b-popup-content\");\n\nvar addedbg = function addedbg() {\n  popup.style.backgroundColor = \"rgba(0, 0, 0, 0.5\";\n};\nif (window.matchMedia(\"(min-width: 489px)\").matches) {\n  action.addEventListener(\"click\", function () {\n    popup.style.display = \"flex\";\n    document.querySelector(\".close\").addEventListener(\"click\", function () {\n      popup.style.display = \"none\";\n    });\n  });\n}\nif (window.matchMedia(\"(max-width: 488px)\").matches) {\n  action.addEventListener(\"click\", function () {\n    // popup.style.display = \"flex\";\n    popup.style.visibility = \"visible\";\n    popup.style.bottom = '-24px';\n    setTimeout(addedbg(), 4000);\n    popup.style.alignItems = \"flex-end\";\n    document.querySelector(\".close\").addEventListener(\"click\", function () {\n      popup.style.bottom = \"-130%\";\n      // popup.style.display = \"none\";\n\n      popup.style.visibility = \"hidden\";\n    });\n  });\n}\n\n//# sourceURL=webpack://inpz/./src/index.js?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("\n\n/* eslint-disable */\n\n/**\n * @param {string[]} pathComponents\n * @
   \******************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1730548572985\n        var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://inpz/./src/styles/main.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n    if(true) {\n      (function() {\n        var localsJsonString = undefined;\n        // 1730550310878\n        var cssReload = __webpack_require__(/*! ../../node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.id, {});\n        // only invalidate when locals change\n        if (\n          module.hot.data &&\n          module.hot.data.value &&\n          module.hot.data.value !== localsJsonString\n        ) {\n          module.hot.invalidate();\n        } else {\n          module.hot.accept();\n        }\n        module.hot.dispose(function(data) {\n          data.value = localsJsonString;\n          cssReload();\n        });\n      })();\n    }\n  \n\n//# sourceURL=webpack://inpz/./src/styles/main.scss?");
 
 /***/ })
 
@@ -120,7 +120,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("88a44873a44fb93c3b11")
+/******/ 		__webpack_require__.h = () => ("a4c89bec57f1828d20de")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */

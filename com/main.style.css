@@ -395,6 +395,7 @@ body {
     max-width: 267px; }
   .b-popup {
     background-color: unset;
+    visibility: hidden;
     display: flex;
     position: sticky;
     bottom: -160%;
