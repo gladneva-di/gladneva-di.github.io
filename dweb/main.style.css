@@ -341,7 +341,7 @@ body {
   .advantage__icon {
     max-width: 340px; } }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1200px) {
   .inner {
     max-width: 1141px;
     margin: 0 auto; }
