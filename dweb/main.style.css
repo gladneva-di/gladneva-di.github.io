@@ -1,0 +1,373 @@
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \*************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss (1) ***!
+  \*****************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.woff2) format("woff2"), url(fonts/Roboto-Bold.woff) format("opentype"), url(fonts/Roboto-Regular.ttf) format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Medium.woff2) format("woff2"), url(fonts/Roboto-Medium.woff) format("woff"), url(fonts/Roboto-Medium.ttf) format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Bold.woff2) format("woff2"), url(fonts/Roboto-Bold.woff) format("woff"), url(fonts/Roboto-Bold.ttf) format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+* {
+  margin: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto; }
+
+.dweb {
+  display: flex;
+  flex-direction: column; }
+
+.inner {
+  margin: 0 auto; }
+
+.header {
+  padding: 40px 12px 0;
+  margin-bottom: 24px; }
+
+.header__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.header__btn {
+  max-width: 223px; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 110px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background: #69b42e;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.btn:hover,
+.btn:active {
+  background: #80bf4d; }
+
+.logo {
+  width: 100%;
+  max-width: 170px;
+  margin-bottom: 32px; }
+
+.header__img {
+  width: 100%;
+  margin-top: 32px;
+  max-width: 296px; }
+
+.header__title {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 23.44px;
+  margin-bottom: 8px; }
+
+.header__text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+  margin-bottom: 32px;
+  color: #666666; }
+
+.promo {
+  padding: 40px 12px;
+  background: #000; }
+
+.promo__date {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #69b42e;
+  margin-bottom: 32px; }
+
+.promo__title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.13px;
+  color: #fff; }
+
+.promo__btn_box {
+  display: flex;
+  margin: 12px 0; }
+
+.promo__text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  margin-bottom: 16px;
+  color: #fff; }
+
+.promo__btn {
+  border: 1px solid #cccccc;
+  border-radius: 80px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #d9d9d9;
+  padding: 8px 12px; }
+
+.promo__btn:first-child {
+  margin-right: 12px; }
+
+.promo__cond {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #69b42e;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 40px; }
+
+.promo__product {
+  padding: 40px 32px;
+  border-radius: 10px;
+  background: #fff; }
+
+.promo__product_icon {
+  display: block;
+  margin: 0 auto 24px; }
+
+.promo__product_title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #000;
+  margin-bottom: 8px; }
+
+.promo__product_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #666666;
+  margin-bottom: 24px; }
+
+.price__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px; }
+
+.price__box {
+  display: flex;
+  flex-direction: column; }
+
+.old_price {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #b3b3b3;
+  text-decoration: line-through; }
+
+.new_price {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #000; }
+
+.price_text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #000; }
+
+.advantages {
+  padding: 0 12px 48px;
+  margin-top: 24px; }
+
+.advantage {
+  position: relative;
+  background: #f2f2f2;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 210px; }
+
+.advantage:first-child {
+  margin-bottom: 12px; }
+
+.advantage__title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.75px;
+  margin-bottom: 12px; }
+
+.advantage__desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  color: #666666; }
+
+.advantage__icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 120px; }
+
+.footer {
+  color: #c6c7c8;
+  padding: 56px 12px 40px;
+  background: #212121; }
+
+.copyright {
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 8px; }
+
+.copyright::before {
+  content: url(images/icon.svg);
+  margin-right: 12px; }
+
+.desc {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px; }
+
+.mob {
+  display: block; }
+
+.tablet {
+  display: none; }
+
+@media only screen and (min-width: 480px) {
+  .logo {
+    max-width: 268px; }
+  .header {
+    padding: 48px 16px 0;
+    margin-bottom: 32px; }
+  .header__title {
+    font-size: 32px;
+    line-height: 37.5px; }
+  .header__text {
+    font-size: 24px;
+    line-height: 28.13px; }
+  .header__img {
+    max-width: 448px; }
+  .promo {
+    padding: 60px 24px 45px;
+    border-radius: 32px;
+    margin: 0 16px 32px; }
+  .promo__text {
+    margin-bottom: 32px; }
+  .promo__product_title {
+    font-size: 24px; }
+  .advantages {
+    padding: 0 16px 48px; }
+  .advantage__title {
+    font-size: 24px;
+    line-height: 28.13px; }
+  .advantage {
+    height: 328px; }
+  .advantage__icon {
+    max-width: 220px; }
+  .advantage:first-child {
+    margin-bottom: 16px; }
+  .footer {
+    padding: 64px 16px 48px; } }
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding: 87px 32px 0; }
+  .header__title {
+    font-size: 48px;
+    line-height: 56.25px; }
+  .header__img {
+    max-width: 704px; }
+  .promo {
+    margin: 0 32px 40px;
+    padding: 80px 65px; }
+  .promo__title {
+    font-size: 32px;
+    line-height: 37.5px; }
+  .promo__text {
+    font-size: 20px;
+    line-height: 23.44px;
+    max-width: 442px; }
+  .promo__product {
+    max-width: 368px;
+    margin: 0 auto; }
+  .footer {
+    padding: 80px 32px 64px; }
+  .desc {
+    max-width: 224px; }
+  .advantages {
+    display: flex;
+    justify-content: center;
+    padding: 0 32px 64px; }
+  .advantage {
+    padding: 32px;
+    min-width: 344px;
+    max-width: 569px;
+    height: 656px;
+    width: 100%; }
+  .advantage:first-child {
+    margin-right: 16px; }
+  .mob {
+    display: none; }
+  .tablet {
+    display: block; }
+  .advantage__icon {
+    max-width: 340px; } }
+
+@media only screen and (min-width: 1100px) {
+  .inner {
+    max-width: 1141px;
+    margin: 0 auto; }
+  .header {
+    padding: 104px 0 0 0;
+    margin-bottom: 64px; }
+  .header__title {
+    font-size: 86px;
+    line-height: 100.78px;
+    margin-bottom: 16px; }
+  .header__text {
+    font-size: 40px;
+    line-height: 46.88px; }
+  .header__img {
+    max-width: 1168px; }
+  .promo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+    padding: 80px 100px; }
+  .promo__product {
+    margin-left: 64px; }
+  .advantages {
+    padding: 0 0 166px 0; }
+  .advantage {
+    padding: 64px; }
+  .desc {
+    max-width: 368px; } }
+
