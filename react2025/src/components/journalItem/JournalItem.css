@@ -1,0 +1,30 @@
+
+.journal-item__header {
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.journal-item__date {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF66;
+
+}
+
+.journal-item__text {
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF99;
+    overflow: hidden;
+}
+.journal-item__body {
+    display: flex;
+    gap: 10px;
+}

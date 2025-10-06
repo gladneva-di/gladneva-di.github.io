@@ -1,0 +1,25 @@
+.input {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+    border-bottom: 1px solid #323232;
+}
+
+.input-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    border-bottom: 1px solid #323232;
+    width: 100%;
+}
+.invalid {
+    border: 1px solid red;
+    background: rgb(187, 87, 87);
+}
+
